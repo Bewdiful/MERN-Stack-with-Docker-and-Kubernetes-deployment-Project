@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -39,4 +39,38 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: #111827;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: #0f172a;
+}
+
+
+.special-orange-bg {
+  --tw-bg-opacity: 1;
+  background-color: #f0940a;
+}
+
+.special-orange-bg-darker:hover {
+  --tw-bg-opacity: 1;
+  background-color: #e08400; /* A slightly darker shade of orange */
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: #e08400;
+}
+
+.bg-dark {
+  background-color: #030712; /* gray-950 */
+}
+
+.bg-darker {
+  background-color: #010409; /* near-black */
 }
